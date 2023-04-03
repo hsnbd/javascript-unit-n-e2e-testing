@@ -1,0 +1,15 @@
+{
+  "name": "javascript-unit-n-e2e-testing",
+  "version": "1.0.0",
+  "description": "Practice JavaScript Unit Testing and  E2E Testing",
+  "main": "index.js",
+  "repository": "https://github.com/hsnbd/javascript-unit-n-e2e-testing.git",
+  "author": "hsnbd <hasanbd666@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
