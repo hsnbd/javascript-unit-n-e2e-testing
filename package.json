@@ -7,9 +7,13 @@
   "author": "hsnbd <hasanbd666@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test:coverage": "jest --coverage"
+    "test": "jest",
+    "test:cov": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "simple-git": "^3.17.0"
   }
 }
