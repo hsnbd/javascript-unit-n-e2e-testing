@@ -15,5 +15,20 @@
   },
   "dependencies": {
     "simple-git": "^3.17.0"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "rootDir": ".",
+    "testRegex": ".*\\.spec\\.js$",
+    "collectCoverageFrom": [
+      "**/*.js"
+    ],
+    "coverageDirectory": "./coverage",
+    "testEnvironment": "node",
+    "roots": [
+      "<rootDir>/libs/"
+    ]
   }
 }
